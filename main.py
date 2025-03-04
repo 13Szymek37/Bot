@@ -99,4 +99,4 @@ async def descriptioninfo(ctx):
 @bot.command()
 async def commandlistinfo(ctx):
     await ctx.send(f'To po prostu lista komend(nie zapomnij użyć przed każdą -> ? <-)')
-bot.run('MTM0NDM3MjA1NzkyNzg0Mzg1MA.GY4ryh.o9ORbKQbCs5ArgXJK2ytTZVruGA5JIVEjY2770')
+bot.run('token')
