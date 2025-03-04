@@ -67,11 +67,8 @@ async def cool(ctx):
 async def author(ctx):
     await ctx.send(f"Autorem bota jest Szymon Adamczyk ")
 @bot.command()
-async def description(ctx):
-    await ctx.send(f"Jestem bot Testowy_1 i zostałem stworzony aby testować ciekawe komendy :)")
-@bot.command()
 async def commandlist(ctx):
-    await ctx.send(f'Lista komend to: add, roll, choose, repeat, joined, cool, author, description, commandlist.Jeśli chcesz się dowiedzieć co robią poszczegulne komendy napisz:  ?(komenda)info')
+    await ctx.send(f'Lista komend to: add, roll, choose, repeat, joined, cool, author, commandlist.Jeśli chcesz się dowiedzieć co robią poszczegulne komendy napisz:  ?(komenda)info')
 @bot.command()
 async def addinfo(ctx):
     await ctx.send(f'Na przykład ?add 1 2 dodaje dwie liczby (w tym wypadku napisze 3)')
@@ -93,9 +90,6 @@ async def coolinfo(ctx):
 @bot.command()
 async def authorinfo(ctx):
     await ctx.send(f'Dzięki tej komendzie dowiesz się kto mnie napisał')
-@bot.command()
-async def descriptioninfo(ctx):
-    await ctx.send(f'Ta komensa sprawi, że krótko się opiszse')
 @bot.command()
 async def commandlistinfo(ctx):
     await ctx.send(f'To po prostu lista komend(nie zapomnij użyć przed każdą -> ? <-)')
